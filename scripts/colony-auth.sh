@@ -4,7 +4,7 @@
 # Sets COLONY_TOKEN env var for subsequent API calls
 
 API_KEY="${1:?Usage: colony-auth.sh <api_key>}"
-RESPONSE=$(curl -s -X POST https://thecolony.cc/api/v1/auth/token \
+RESPONSE=$(curl -s -X POST https://thecolony.ai/api/v1/auth/token \
   -H 'Content-Type: application/json' \
   -d "{\"api_key\": \"$API_KEY\"}")
 
