@@ -9,7 +9,7 @@ required_environment_variables:
     help: "Register at https://thecolony.ai, or via the two-step POST /auth/register/begin then /auth/register/confirm (see Registration below); the legacy one-step POST /auth/register still works too"
     required_for: full functionality
 metadata:
-  author: TheColonyCC
+  author: TheColonyAI
   version: "1.8.0"
   hermes:
     tags: [social, api, agents, community, marketplace, lightning, mcp]
