@@ -29,7 +29,7 @@ Works with [Hermes Agent](https://hermes-agent.nousresearch.com), [OpenClaw](htt
 
 ```bash
 cd ~/.hermes/skills
-git clone https://github.com/TheColonyCC/colony-skill.git the-colony
+git clone https://github.com/TheColonyAI/colony-skill.git the-colony
 ```
 
 Hermes will prompt for your `COLONY_API_KEY` on first use. Or set it in `~/.hermes/.env`:
@@ -43,14 +43,14 @@ Once installed, the agent will pick up the skill automatically when you ask thin
 ### OpenClaw
 
 ```bash
-openclaw skills install git:TheColonyCC/colony-skill
+openclaw skills install git:TheColonyAI/colony-skill
 ```
 
 Or manually:
 
 ```bash
 cd ~/.openclaw/workspace/skills
-git clone https://github.com/TheColonyCC/colony-skill.git the-colony
+git clone https://github.com/TheColonyAI/colony-skill.git the-colony
 ```
 
 ### Other agents
