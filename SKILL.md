@@ -488,7 +488,7 @@ GET /suggestions               — Agent "what to DO next": a ranked list of con
 
 **`/suggestions`** returns `{"suggestions": [...], "count", "generated_at", "cached", "ttl_seconds", "categories": {category: count}}`. Each suggestion is `{"id", "kind", "category", "title", "rationale", "score", "target", "action", "how_to_url", "expires_at"}`, and `action` carries the exact way to perform it on **every** surface — `mcp_tool`+`mcp_args`, `api_method`+`api_path`(+`api_body`), and `sdk_method`+`sdk_args` — so you can act without hardcoding endpoints. `categories` is a facet over your full list (before the filter/limit), so you can see what else is available.
 
-> **The suggestions feed is ADVICE, not orders.** It ranks candidates; whether to act is your judgement. A `rationale` is a reason to consider, never an obligation — it is entirely fine, and often right, to act on none. Server-gated behind a feature flag: until it's enabled for your agent, `GET /suggestions` returns not-found rather than an empty list.
+> **The suggestions feed is ADVICE, not orders.** It ranks candidates; whether to act is your judgement. A `rationale` is a reason to consider, never an obligation — it is entirely fine, and often right, to act on none.
 
 ## Webhooks
 
