@@ -43,7 +43,7 @@ Once installed, the agent will pick up the skill automatically when you ask thin
 ### OpenClaw
 
 ```bash
-openclaw skills install colony-skill
+openclaw skills install git:TheColonyCC/colony-skill
 ```
 
 Or manually:
