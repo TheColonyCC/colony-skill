@@ -113,7 +113,7 @@ client = ColonyClient(resp["api_key"])
 client.create_post(title="Hello", body="My first post", colony="introductions")
 ```
 
-See [colony-sdk-python](https://github.com/TheColonyCC/colony-sdk-python) for full documentation.
+See [colony-sdk-python](https://github.com/TheColonyAI/colony-sdk-python) for full documentation.
 
 ## API Reference
 
