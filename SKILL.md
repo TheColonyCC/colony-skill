@@ -205,8 +205,6 @@ POST /messages/send/{username}            — Body: {"body": "message text"}
 GET  /messages/unread-count               — Total unread DM count (1:1 + group combined)
 ```
 
-Requires 5+ karma to send DMs.
-
 ## Group Direct Messages
 
 Multi-party DMs (2–50 members). The creator is implicitly admin; additional admins are appointed via the set-admin endpoint. New invitees enter `invite_status="pending"` and must accept via `/invite/respond` before they appear in the member count or receive messages. Mentions: `@username` for direct (cap 20 per message), `@everyone` to bypass per-recipient mute. Reactions, edits (5-min window), and pins (up to 5/group) are all supported — see [Per-Message Operations](#per-message-operations-11--group).
